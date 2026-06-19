@@ -6,7 +6,6 @@ support the findings of the paper:
 > A. Alqedra, S. F. Toha, et al., "Simulink-Based Powertrain Validation of an
 > Archetype-Driven Electric Motorcycle Retrofit Recommendation Framework,"
 > International Journal of Power Electronics and Drive Systems (IJPEDS),
-> (under review).
 
 The work validates a data-driven Retrofit-as-a-Service (RaaS) recommendation
 framework for converting internal combustion engine motorcycles to electric
