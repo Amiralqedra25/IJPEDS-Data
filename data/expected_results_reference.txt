@@ -1,0 +1,18 @@
+EXPECTED RESULTS REFERENCE (recalibrated framework + sizing outputs)
+Flat road (grade_rad=0), wheel_radius_m=0.28. Run run_comparison.m and
+run_simulink_validation.m in MATLAB; Simulink agrees within ~3%.
+==================================================================================
+WMTC cycle: 475 s, max 80 km/h, distance 6.51 km
+
+Fam Donor                        R_LB  R_sim floor   P_pk  T_whl  P_mot
+----------------------------------------------------------------------------------
+F1  Hero Hero Xoom LX 2024       76.5   79.2  True   4.97     75   5.84
+F2  Bajaj Bajaj Pulsar NS160    101.1  106.1  True   5.57     88   6.55
+F3  Kayo Kayo T4 300 2025       108.3  112.7  True   5.01     76   5.90
+F4  BMW BMW C 400 GT 2024       123.1  134.9  True   6.53    108   7.69
+F5  CF CF Moto 800 Adventura    160.5  215.2  True   6.38    105   7.50
+----------------------------------------------------------------------------------
+Range_LB conservative floor in all cases: True
+
+P_pk = peak wheel power (kW); T_whl = peak wheel torque (Nm);
+P_mot = required motor rating (kW) = P_pk / eta_drv.
